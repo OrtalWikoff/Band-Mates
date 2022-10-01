@@ -49,23 +49,23 @@ function App() {
           <div className="container">
             <Routes>
             <Route 
-                path="/Home" 
+                exact path="/Home" 
                 element={<Home />} 
               />
               <Route 
-                path="/login" 
+                exact path="/login" 
                 element={<Login />} 
               />
               <Route 
-                path="/signup" 
+                exact path="/signup" 
                 element={<Signup />} 
               />
               <Route 
-                path="/Friends" 
+                exact path="/" 
                 element={<Friends />} 
               />
               <Route 
-                path="/profiles/:profileId" 
+               exact path="/profiles/:profileId" 
                 element={<Profile />} 
               />
             </Routes>

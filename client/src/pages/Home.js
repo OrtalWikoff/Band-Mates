@@ -3,7 +3,6 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -15,6 +14,10 @@ export default function Home() {
         porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
+        <br></br><br></br>
+        <div className="ratio ratio-20x23">
+          <iframe src="https://www.youtube.com/embed/t4sK8d48Exs" title="YouTube video" allowFullScreen></iframe>
+        </div>
       </p>
     </div>
   );
