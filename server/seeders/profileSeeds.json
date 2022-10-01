@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Doron Wikoff",
+    "email": "doron.wikoff@gmail.com",
+    "password": "password01",
+    "skills": ["Acoustic Guitar", "Vocals", "Electic Guitar"]
+  },
+  {
+    "name": "Oren Moony",
+    "email": "orenmoony@gmail.com",
+    "password": "password02",
+    "skills": ["Drums"]
+  },
+  {
+    "name": "Soho Moho",
+    "email": "Soho@gmail.com",
+    "password": "password03",
+    "skills": ["Piano"]
+  },
+  {
+    "name": "Liel Wikoff",
+    "email": "liel.wikoff@gmail.com",
+    "password": "password04",
+    "skills": [
+      "Vocals",
+      "Guitar"
+    ]
+  }
+]
+  
