@@ -1,11 +1,21 @@
-const mongoose = require('mongoose');
+require("dotenv").config();
+const mongoose = require("mongoose");
 
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/tech-friends',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+const DATABASE_URL = process.env.DATABASE_URL;
 
-module.exports = mongoose.connection;
+const connectDb = () => {
+  return mongoose.connect(DATABASE_URL, { useUnifiedTopology: true, useNewUrlParser: true }, err => {
+    if (err) {
+      console.log("Connection to Database failed.");
+    }
+    else{
+      console.log("Database connection successful.");
+    }
+  });
+};
+
+const db = mongoose.connection;
+
+db.on("error", console.error.bind(console, "MongoDB connection error"));
+
+module.exports = connectDb;
