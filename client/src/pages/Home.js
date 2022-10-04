@@ -15,8 +15,16 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
         <br></br><br></br>
-        <div className="ratio ratio-20x23">
-          <iframe src="https://www.youtube.com/embed/t4sK8d48Exs" title="YouTube video" allowFullScreen></iframe>
+        <div>
+        <iframe
+      width="853"
+      height="480"
+      src={`https://www.youtube.com/embed/t4sK8d48Exs`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
         </div>
       </p>
     </div>
