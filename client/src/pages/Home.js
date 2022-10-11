@@ -4,22 +4,16 @@ export default function Home() {
   return (
     <div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+       If you are a new musician that is looking for feedback about your music, this is the right place for you!
+       Sign up and join other musicians that are looking for feedback. 
+       leave comments and see what others think about your music.
+       Listen to the Music and enjoy!
         <br></br><br></br>
         <div>
         <iframe
       width="853"
       height="480"
-      src={`https://www.youtube.com/embed/zTBmv-Gzf2w`}
+      src={`https://www.youtube.com/embed/t4sK8d48Exs`}
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
