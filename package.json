@@ -8,7 +8,9 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "develop": "^1.0.0"
+    "develop": "^1.0.0",
+    "serve": "^14.0.1"
   }
 }
